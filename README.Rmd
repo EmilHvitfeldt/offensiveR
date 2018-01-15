@@ -14,6 +14,8 @@ knitr::opts_chunk$set(
 ```
 # offensiveR
 
+[![Travis build status](https://travis-ci.org/EmilHvitfeldt/offensiveR.svg?branch=master)](https://travis-ci.org/EmilHvitfeldt/offensiveR)
+
 The goal of offensiveR is to help check for misspelled that are not caught with normal spells checking because they are misspelled to an offensive word.  
 
 Examples include:
