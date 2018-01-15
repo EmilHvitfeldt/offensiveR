@@ -73,5 +73,4 @@ Despite having sent out emails and surveys to 20K+ people countless times before
 </p>
 — Jesse Maegan (@kierisi) <a href="https://twitter.com/kierisi/status/924292995435978752?ref_src=twsrc%5Etfw">28. oktober 2017</a>
 </blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-and the [spelling](https://github.com/ropensci/spelling) package which much of the package is based on.
+&lt; Ad the [spelling](https://github.com/ropensci/spelling) package which much of the package is based on.

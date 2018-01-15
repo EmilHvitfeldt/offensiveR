@@ -69,7 +69,5 @@ All functions comes with the two arguments `words_add` and `words_ignore` to add
 This package would not have been made have I not gotten the Idea from this tweet
 
 <blockquote class="twitter-tweet" data-lang="da"><p lang="en" dir="ltr">Despite having sent out emails and surveys to 20K+ people countless times before, I still get nervous each time I have to do it 😂</p>&mdash; Jesse Maegan (@kierisi) <a href="https://twitter.com/kierisi/status/924292995435978752?ref_src=twsrc%5Etfw">28. oktober 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-and the [spelling](https://github.com/ropensci/spelling) package which much of the package is based on.
+  <
+Ad the [spelling](https://github.com/ropensci/spelling) package which much of the package is based on.
