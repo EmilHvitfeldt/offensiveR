@@ -3,6 +3,8 @@
 offensiveR
 ==========
 
+[![Travis build status](https://travis-ci.org/EmilHvitfeldt/offensiveR.svg?branch=master)](https://travis-ci.org/EmilHvitfeldt/offensiveR)
+
 The goal of offensiveR is to help check for misspelled that are not caught with normal spells checking because they are misspelled to an offensive word.
 
 Examples include:
@@ -37,9 +39,9 @@ The package consists of two major functions. `offensive_check_files()` and `offe
 ``` r
 offensive_check_files(c("README.Rmd"))
 #>   WORD    FOUND IN
-#> ass     README.Rmd:21
-#> asses   README.Rmd:23
-#> butt    README.Rmd:22
+#> ass     README.Rmd:23
+#> asses   README.Rmd:25
+#> butt    README.Rmd:24
 ```
 
 `offensive_check_string()` takes a character string as input, and can be quite handy if you need to check an email you are about to send.
