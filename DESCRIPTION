@@ -19,6 +19,5 @@ Imports:
     knitr,
     purrr,
     tokenizers,
-    xml2
-Suggests: 
+    xml2,
     pdftools
