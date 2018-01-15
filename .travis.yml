@@ -3,3 +3,5 @@
 language: R
 sudo: false
 cache: packages
+install:
+  - Rscript -e 'install.packages("pdftools", repos = "http://cran.rstudio.com")'
