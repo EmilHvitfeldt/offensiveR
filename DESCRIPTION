@@ -1,0 +1,24 @@
+Package: offensiveR
+Version: 0.0.1
+Title: Checks for offensive words in texts/documents
+Description: This package checks documents and texts for words that 
+    could be found offensive.
+Authors@R: person("Emil", "Hvitfeldt", email = "emilhhvitfeldt@gmail.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+Depends:
+    R (>= 3.0.0),
+Imports: 
+    magrittr,
+    commonmark,
+    crayon,
+    hunspell,
+    knitr,
+    purrr,
+    tokenizers,
+    xml2
+Suggests: 
+    pdftools
