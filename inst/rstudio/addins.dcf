@@ -1,0 +1,4 @@
+Name: Offensive check selection
+Description: Checks for offensive words in selection.
+Binding: offensive_addin
+Interactive: false

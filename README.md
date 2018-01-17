@@ -64,6 +64,10 @@ offensive_check_string(text)
 
 All functions comes with the two arguments `words_add` and `words_ignore` to add words to look for, and words to ignore respectively.
 
+As of version 0.1.0 also include addin support for `offensive_check_string`.
+
+![](man/figures/Jan-16-2018-21-15-34.gif)
+
 Thanks
 ------
 
