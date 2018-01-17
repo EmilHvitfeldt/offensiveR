@@ -2,6 +2,7 @@
 
 S3method(print,summary_spellcheck)
 export("%>%")
+export(offensive_addin)
 export(offensive_check_files)
 export(offensive_check_string)
 export(offensive_check_text)
