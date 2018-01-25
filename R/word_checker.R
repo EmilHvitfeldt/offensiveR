@@ -1,10 +1,10 @@
 word_checker <- function(text, words_add = character(),
                          words_ignore = character()) {
 
-  bad_words <- setdiff(union(offensiveR::bad_words, words_add), words_ignore)
+  bad_words_updated <- setdiff(union(offensiveR::bad_words, words_add), words_ignore)
 
   text %>% purrr::map(~ .x %>%
                         tokenizers::tokenize_words() %>%
                         unlist() %>%
-                        intersect(offensiveR::bad_words))
+                        intersect(bad_words_updated))
 }
