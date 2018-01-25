@@ -1,7 +1,7 @@
 #' Checks for offensive words in selection
 #'
 #' Call this function as an addin to check for offensive words in selection.
-#' Example is shown at \url(https://github.com/EmilHvitfeldt/offensiveR).
+#' Example is shown at \url{https://github.com/EmilHvitfeldt/offensiveR}.
 #'
 #' @export
 offensive_addin <- function() {
