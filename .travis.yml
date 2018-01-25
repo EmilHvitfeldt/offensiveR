@@ -2,7 +2,6 @@
 
 language: R
 sudo: false
-cache: packages
 install:
   - Rscript -e 'install.packages(c("magrittr", "commonmark", "crayon", "hunspell", "knitr", "purrr",
   "tokenizers", "xml2", "pdftools", "rstudioapi"), repos = "http://cran.rstudio.com")'
