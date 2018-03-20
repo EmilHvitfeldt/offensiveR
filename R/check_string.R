@@ -18,19 +18,6 @@
 offensive_check_string <- function(text, n_output = 2, words_add = character(),
                                    words_ignore = character()) {
 
-  padding <- function(x, n_words, n_output) {
-
-    before <- seq(from = x - n_output, to = x - 1)
-    before <- before[before > 0]
-
-    after <- seq(from = x + 1, to = x + n_output)
-    after <- after[after <= n_words]
-
-    list(before = before,
-         after = after,
-         match = x)
-  }
-
   what <- word_checker(text, words_add = words_add,
                        words_ignore = words_ignore)[[1]]
   all_words <- tokenizers::tokenize_words(text)[[1]]

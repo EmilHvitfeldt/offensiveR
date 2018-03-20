@@ -1,4 +1,4 @@
-padding <- function(x) {
+padding <- function(x, n_words, n_output) {
 
   before <- seq(from = x - n_output, to = x - 1)
   before <- before[before > 0]
