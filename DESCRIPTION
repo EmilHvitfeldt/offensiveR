@@ -1,5 +1,5 @@
 Package: offensiveR
-Version: 0.1.2
+Version: 0.1.3
 Title: Checks for offensive words in texts/documents
 Description: This package checks documents and texts for words that 
     could be found offensive.
