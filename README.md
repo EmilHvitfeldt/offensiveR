@@ -5,7 +5,7 @@ offensiveR
 
 [![Travis build status](https://travis-ci.org/EmilHvitfeldt/offensiveR.svg?branch=master)](https://travis-ci.org/EmilHvitfeldt/offensiveR)
 
-The goal of offensiveR is to help check for misspelled that are not caught with normal spells checking because they are misspelled to an offensive word.
+The goal of **offensiveR** is to help check for misspelled that are not caught with normal spells checking because they are misspelled to an offensive word.
 
 Examples include:
 
@@ -18,7 +18,7 @@ This package crosscheck with a quite large list of words, many of which will not
 Installation
 ------------
 
-You can install offensiveR from github with:
+You can install **offensiveR** from github with:
 
 ``` r
 # install.packages("offensiveR")
